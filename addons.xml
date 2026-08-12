@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.athienne" name="Athienne Repository" version="1.1.1" provider-name="duyducan-eng">
+<addon id="repository.athienne" name="Athienne Repository" version="1.1.2" provider-name="duyducan-eng">
   <extension point="xbmc.addon.repository" name="Athienne Repository">
     <dir>
-      <info compressed="false">https://duyducan-eng.github.io/athienne/addons.xml</info>
-      <checksum>https://duyducan-eng.github.io/athienne/addons.xml.md5</checksum>
-      <datadir zip="true">https://duyducan-eng.github.io/athienne/zips/</datadir>
+      <info compressed="false">https://raw.githubusercontent.com/duyducan-eng/athienne/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/duyducan-eng/athienne/main/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/duyducan-eng/athienne/main/zips/</datadir>
       <hashes>false</hashes>
     </dir>
   </extension>
