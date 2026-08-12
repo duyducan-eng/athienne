@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.athienne" name="Athienne Repository" version="1.0.0" provider-name="duyducan-eng">
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.athienne" name="Athienne Repository" version="1.0.1" provider-name="duyducan-eng">
   <extension point="xbmc.addon.repository" name="Athienne Repository">
-    <info compressed="false">https://duyducan-eng.github.io/athienne/addons.xml</info>
-    <checksum>https://duyducan-eng.github.io/athienne/addons.xml.md5</checksum>
-    <datadir zip="true">https://duyducan-eng.github.io/athienne/zips/</datadir>
+    <dir>
+      <info compressed="false">https://duyducan-eng.github.io/athienne/addons.xml</info>
+      <checksum>https://duyducan-eng.github.io/athienne/addons.xml.md5</checksum>
+      <datadir zip="true">https://duyducan-eng.github.io/athienne/zips/</datadir>
+    </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="vi_VN">Athienne</summary><description lang="vi_VN">Kho tiện ích media cá nhân.</description>
-    <platform>all</platform><license>GPL-3.0-only</license>
+    <summary lang="vi_VN">Athienne</summary>
+    <description lang="vi_VN">Kho tiện ích media cá nhân.</description>
+    <platform>all</platform>
+    <license>GPL-3.0-only</license>
   </extension>
 </addon>
+
 <addon id="plugin.video.athienne" name="Athienne" version="1.0.1" provider-name="duyducan-eng">
   <requires><import addon="xbmc.python" version="3.0.0"/></requires>
   <extension point="xbmc.python.pluginsource" library="addon.py"><provides>video</provides></extension>
